@@ -36,7 +36,6 @@ public class Main11650 {
             }
         }
 
-
         StringBuilder sb = new StringBuilder();
 
         for(int i = 0; i < N; i++){
