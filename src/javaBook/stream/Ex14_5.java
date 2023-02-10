@@ -3,6 +3,8 @@ package javaBook.stream;
 import java.util.Comparator;
 import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.joining;
+
 public class Ex14_5 {
     public static void main(String[] args) {
         Stream<Student> studentStream = Stream.of(
@@ -15,10 +17,12 @@ public class Ex14_5 {
                 new Student("정지수", 3, 88)
         );
 
-        studentStream.sorted(Comparator.comparing(Student::getBan)
-                .thenComparing(Student::getGetTotalScore)
-                .thenComparing(Student::getName))
-                .forEach(System.out::println);
+//        studentStream.sorted(Comparator.comparing(Student::getBan)
+//                .thenComparing(Student::getGetTotalScore)
+//                .thenComparing(Student::getName))
+//                .forEach(System.out::println);
+
+
     }
     static class Student{
         String name;
