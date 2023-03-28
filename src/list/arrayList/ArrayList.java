@@ -1,6 +1,6 @@
 package list.arrayList;
 
-public class ArrayList {
+public class ArrayList<I extends Number> {
     // 리스트 배열 생성하기
     private Object[] elementData = new Object[100];
 

@@ -2,7 +2,7 @@ package list.arrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList list = new ArrayList();
+        ArrayList<Number> list = new ArrayList<Number>();
         // 리스트 추가
         list.add(3);
         list.add(50);
