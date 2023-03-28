@@ -16,7 +16,7 @@ public class Main9251_bottomUp {
         int length_A = A.length;
         int length_B = B.length;
 
-        int[][] dp = new int[length_A + 1][length_B + 1]; // 인덱스 0은 0의 값으 가지고 있음
+        int[][] dp = new int[length_A + 1][length_B + 1]; // 인덱스 0은 0의 값을 가지고 있음
 
         for (int i = 1; i <= length_A; i++) {
             for (int j = 1; j <= length_B; j++) {
