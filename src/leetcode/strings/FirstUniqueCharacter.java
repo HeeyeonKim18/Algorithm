@@ -1,3 +1,4 @@
+package Algorithm.src.leetcode.strings;
 public class FirstUniqueCharacter {
     public static void main(String[] args) {
         String s = "loveleetcode";
