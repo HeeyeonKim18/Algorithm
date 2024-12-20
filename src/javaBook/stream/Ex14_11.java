@@ -1,7 +1,6 @@
 package javaBook.stream;
 
 import java.util.*;
-import java.util.function.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.*;
 import static java.util.Comparator.*;

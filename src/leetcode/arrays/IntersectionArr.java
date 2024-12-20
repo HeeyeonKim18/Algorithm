@@ -1,4 +1,4 @@
-package Algorithm.src.leetcode.arrays;
+package leetcode.arrays;
 /*
     Given two integer arrays nums1 and nums2, 
     return an array of their intersection. 

@@ -1,4 +1,4 @@
-package Algorithm.src.leetcode.strings;
+package leetcode.strings;
 public class ReverseInteger {
     public static void main(String[] args) {
         int x = -120;

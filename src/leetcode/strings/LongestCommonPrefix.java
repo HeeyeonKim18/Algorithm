@@ -1,4 +1,4 @@
-package Algorithm.src.leetcode.strings;
+package leetcode.strings;
 import java.util.Arrays;
 
 public class LongestCommonPrefix {

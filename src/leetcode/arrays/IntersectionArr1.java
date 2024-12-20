@@ -1,4 +1,4 @@
-package Algorithm.src.leetcode.arrays;
+package leetcode.arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

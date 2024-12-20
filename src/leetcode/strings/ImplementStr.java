@@ -1,4 +1,4 @@
-package Algorithm.src.leetcode.strings;
+package leetcode.strings;
 public class ImplementStr {
     public static void main(String[] args) {
         String haystack = "leetcode";

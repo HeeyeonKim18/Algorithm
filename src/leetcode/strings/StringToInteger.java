@@ -1,4 +1,4 @@
-package Algorithm.src.leetcode.strings;
+package leetcode.strings;
 public class StringToInteger {
     public static void main(String[] args) {
         String str = " -2147483649";

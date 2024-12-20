@@ -1,7 +1,6 @@
 package javaBook.stream;
 
 import java.util.Optional;
-import java.util.stream.Stream;
 
 public class Ex14_8 {
     public static void main(String[] args) {
