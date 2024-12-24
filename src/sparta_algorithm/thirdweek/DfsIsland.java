@@ -18,20 +18,14 @@ public class DfsIsland {
         if (grid == null || grid.length == 0) return 0;
 
         int numIslands = 0;
-        int rows = grid.length;
-        int cols = grid[0].length;
-
-        // 방향 배열 정의 (상, 하, 좌, 우)
-        int[] dr = {-1, 1, 0, 0};
-        int[] dc = {0, 0, -1, 1};
 
         // 모든 좌표를 순회
-        for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[0].length; col++) {
                 // 현재 좌표가 땅(1)이면 DFS 실행
                 if (grid[row][col] == 1) {
                     numIslands++; // 새로운 섬 발견
-                    dfs(grid, row, col, dr, dc); // 연결된 모든 땅을 방문 처리
+                    dfs(grid, row, col); // 연결된 모든 땅을 방문 처리
                 }
             }
         }
@@ -39,7 +33,11 @@ public class DfsIsland {
         return numIslands;
     }
 
-    private static void dfs(int[][] grid, int row, int col, int[] dr, int[] dc){
+    private static void dfs(int[][] grid, int row, int col){
+        // 방향 배열 정의 (상, 하, 좌, 우)
+        int[] dr = {-1, 1, 0, 0};
+        int[] dc = {0, 0, -1, 1};
+
         int rows = grid.length;
         int cols = grid[0].length;
 
@@ -55,7 +53,7 @@ public class DfsIsland {
         for (int i = 0; i < 4; i++) {
             int newRow = row + dr[i];
             int newCol = col + dc[i];
-            dfs(grid, newRow, newCol, dr, dc);
+            dfs(grid, newRow, newCol);
         }
     }
 
@@ -63,20 +61,14 @@ public class DfsIsland {
         if (grid == null || grid.length == 0) return 0;
 
         int numIslands = 0;
-        int rows = grid.length;
-        int cols = grid[0].length;
-
-        // 방향 배열 정의 (상, 하, 좌, 우)
-        int[] dr = {-1, 1, 0, 0};
-        int[] dc = {0, 0, -1, 1};
 
         // 모든 좌표를 순회
-        for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
+        for (int row = 0; row < grid.length; row++) {
+            for (int col = 0; col < grid[0].length; col++) {
                 // 현재 좌표가 땅(1)이면 DFS 실행
                 if (grid[row][col] == 1) {
                     numIslands++; // 새로운 섬 발견
-                    stackDfs(grid, row, col, dr, dc); // 스택을 사용한 DFS로 방문 처리
+                    stackDfs(grid, row, col); // 스택을 사용한 DFS로 방문 처리
                 }
             }
         }
@@ -84,7 +76,11 @@ public class DfsIsland {
         return numIslands;
     }
 
-    private static void stackDfs(int[][] grid, int row, int col, int[] dr, int[] dc) {
+    private static void stackDfs(int[][] grid, int row, int col) {
+        // 방향 배열 정의 (상, 하, 좌, 우)
+        int[] dr = {-1, 1, 0, 0};
+        int[] dc = {0, 0, -1, 1};
+
         int rows = grid.length;
         int cols = grid[0].length;
 

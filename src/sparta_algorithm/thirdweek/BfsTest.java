@@ -21,12 +21,12 @@ public class BfsTest {
 
         while(!queue.isEmpty()){
             int cur = queue.poll();
+            vistied[cur] = true;
             System.out.print(cur + " ");
 
             for(int neighbor : graph[cur]){
                 if(!vistied[neighbor]){
                     queue.offer(neighbor);
-                    vistied[neighbor] = true;
                 }
             }
         }
