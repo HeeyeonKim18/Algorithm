@@ -1,4 +1,4 @@
-package codingstudy;
+package codingstudy.day2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
