@@ -1,4 +1,4 @@
-package sparta_algorithm.thirdweek;
+package codingstudy;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -15,10 +15,21 @@ public class Test11724 {
         int n = Integer.parseInt(input[0]);
         int m = Integer.parseInt(input[1]);
 
+<<<<<<< HEAD
         graph = new ArrayList[n+1];
         visited = new boolean[n+1];
         for(int i = 1; i <= n; i++){
             graph[i] = new ArrayList<>();
+=======
+        int[][] nums = new int[n + 1][1];
+        vistied = new boolean[n+1];
+        while(m-- > 0){
+            String[] str = br.readLine().split(" ");
+            int u = Integer.parseInt(str[0]);
+            int v = Integer.parseInt(str[1]);
+            nums[u][0] = v;
+            
+>>>>>>> 8289860 (코테 스터디 미들러)
         }
 
         for(int i = 0; i < m; i++){
