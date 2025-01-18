@@ -3,8 +3,7 @@ package codingstudy.day5;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Test2470 {
     public static void main(String[] args) throws NumberFormatException, IOException {
@@ -20,25 +19,22 @@ public class Test2470 {
 
         Arrays.sort(nums);
 
-        // int low = nums[0];
-        // int high = nums[n -1];
-        // int min = Integer.MAX_VALUE;
+        int i = 0, j = nums.length - 1;
+        int min = Integer.MAX_VALUE;
+        int[] result = new int[2];
 
-        // while(low <= 0 || high >= 0){
-        //     int mid = low + (high - low) / 2;
+        while(i < j){
+            int sum = nums[i] + nums[j];
+            if(Math.abs(sum) < min){
+                min = Math.abs(sum);
+                result[0] = nums[i];
+                result[1] = nums[j];
+            }
+            if(sum == 0) break;
+            if(sum > 0) j--;
+            else i++;
+        }
 
-        //     if(mid < 0){
-        //         high--;
-        //     } 
-        //     else if(mid > 0){
-        //         low++;
-        //     } 
-        //     else{
-        //         System.out.println(low + " " + high);
-        //         return;
-        //     }
-        //     min = Math.min(min, mid);
-            
-        // }
+        System.out.println(result[0] + " " + result[1]);
     }
 }
