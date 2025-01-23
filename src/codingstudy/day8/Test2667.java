@@ -35,7 +35,7 @@ public class Test2667 {
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
-                if(!visited[i][j])dfs(i, j, n, dr, dc);
+                if(!visited[i][j] && map[i][j] == 1)dfs(i, j, n, dr, dc);
             }
         }
 
@@ -53,7 +53,7 @@ public class Test2667 {
 
         stack.push(new int[]{row,col});
         visited[row][col] = true;
-        int count = 0;
+        int count = 1;
 
         while(!stack.isEmpty()){
             int[] cur = stack.pop();
@@ -70,7 +70,7 @@ public class Test2667 {
             }
         }
         
-        if(count != 0) list.add(count);
+        if(count > 0) list.add(count);
 
     }
 }
