@@ -32,19 +32,20 @@ public class Test12425 {
             st = new StringTokenizer(br.readLine(), " ");
             for (int i = 0; i < n; i++) {
                 String point = st.nextToken();
+
+                // 이동할 말을 선택하는 로직 필요 (현재 가장 앞에 있는 말을 움직이는 방식으로 가정)
                 if (isATurn) {
                     isATurn = movePoint(point, pointsA);
                 } else {
                     isATurn = movePoint(point, pointsB);
                 }
-
             }
         }
     }
 
-    private static boolean movePoint(String point, int[] state) {
-        if (state.length == 0)
-            return false;
+    private static boolean movePoint(String point, int[] states) {
+        if (states.length == 0)
+            return false; // 이동할 말이 없으면 종료
 
         // 가장 앞에 있는 말을 이동하는 방식(기본 구현)
         int moveIdx = 0;
@@ -59,20 +60,16 @@ public class Test12425 {
             case "Do":
                 moveDistance = 1;
                 break;
-
             case "Gae":
                 moveDistance = 2;
                 break;
-
             case "Gul":
                 moveDistance = 3;
                 break;
-
             case "Yut":
                 moveDistance = 4;
                 extraTurn = true;
                 break;
-
             case "Mo":
                 moveDistance = 5;
                 extraTurn = true;
@@ -80,16 +77,16 @@ public class Test12425 {
         }
 
         // 이동 적용
-        state[moveIdx] += moveDistance;
+        states[moveIdx] += moveDistance;
 
         // 특수 이동 적용
         for (int i = 0; i < specialMoves.length; i++) {
-            if (state[moveIdx] == specialMoves[i]) {
-                state[moveIdx] = specialTargets[i];
+            if (states[moveIdx] == specialMoves[i]) {
+                states[moveIdx] = specialTargets[i];
                 break;
             }
         }
 
-        return extraTurn;
+        return extraTurn; // 윷이나 모가 나왔으면 현재 팀이 한 번 더 진행
     }
 }
