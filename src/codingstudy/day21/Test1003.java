@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Test1003 {
-    static int zero = 0;
-    static int one = 0;
-
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
