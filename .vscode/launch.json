@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test10799",
+            "request": "launch",
+            "mainClass": "Test10799",
+            "projectName": "Algorithm_6e8f9733"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
