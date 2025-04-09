@@ -13,6 +13,20 @@
     },
     {
       "type": "java",
+      "name": "Test9996",
+      "request": "launch",
+      "mainClass": "codingstudy2.day8.Test9996",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "Test10799",
+      "request": "launch",
+      "mainClass": "Test10799",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
