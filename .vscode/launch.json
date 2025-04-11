@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Test1783",
+      "request": "launch",
+      "mainClass": "codingstudy2.day10.Test1783",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "Bonus",
       "request": "launch",
       "mainClass": "codingstudy2.day6.Bonus",
