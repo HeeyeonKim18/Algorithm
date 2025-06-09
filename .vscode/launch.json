@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidParentheses",
+      "request": "launch",
+      "mainClass": "fourweeks.ValidParentheses",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "Twosum",
+      "request": "launch",
+      "mainClass": "fourweeks.Twosum",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
       "name": "Test18126",
       "request": "launch",
       "mainClass": "codingstudy2.day17.Test18126",
