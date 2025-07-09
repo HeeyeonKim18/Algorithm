@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BestTimeToBuyAndSellStock",
+      "request": "launch",
+      "mainClass": "fourweeks.BestTimeToBuyAndSellStock",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "MergeTwoSortedLists",
+      "request": "launch",
+      "mainClass": "fourweeks.MergeTwoSortedLists",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
       "name": "ValidParentheses",
       "request": "launch",
       "mainClass": "fourweeks.ValidParentheses",
