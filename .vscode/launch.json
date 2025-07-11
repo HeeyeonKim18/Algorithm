@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LinkedListCycle",
+      "request": "launch",
+      "mainClass": "fourweeks.LinkedListCycle",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "ValidPalindrome",
+      "request": "launch",
+      "mainClass": "fourweeks.ValidPalindrome",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
       "name": "ClimbStairs",
       "request": "launch",
       "mainClass": "fourweeks.ClimbStairs",
