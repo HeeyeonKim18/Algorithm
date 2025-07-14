@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MoveZeroes",
+      "request": "launch",
+      "mainClass": "fourweeks.MoveZeroes",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "MissingNumber",
+      "request": "launch",
+      "mainClass": "fourweeks.MissingNumber",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
       "name": "ReverseLinkedList",
       "request": "launch",
       "mainClass": "fourweeks.ReverseLinkedList",
