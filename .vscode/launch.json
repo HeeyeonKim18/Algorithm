@@ -6,10 +6,101 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IntersectionOfTwoArrays",
+      "request": "launch",
+      "mainClass": "fourweeks.IntersectionOfTwoArrays",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "MajorityElement",
+      "request": "launch",
+      "mainClass": "fourweeks.MajorityElement",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "Test17265",
       "request": "launch",
       "mainClass": "codingstudy2.day20.Test17265",
       "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "MoveZeroes",
+      "request": "launch",
+      "mainClass": "fourweeks.MoveZeroes",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "MissingNumber",
+      "request": "launch",
+      "mainClass": "fourweeks.MissingNumber",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "ReverseLinkedList",
+      "request": "launch",
+      "mainClass": "fourweeks.ReverseLinkedList",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
+      "name": "RemoveDuplicatesFromSortedArray",
+      "request": "launch",
+      "mainClass": "fourweeks.RemoveDuplicatesFromSortedArray",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListCycle",
+      "request": "launch",
+      "mainClass": "fourweeks.LinkedListCycle",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "ValidPalindrome",
+      "request": "launch",
+      "mainClass": "fourweeks.ValidPalindrome",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "ClimbStairs",
+      "request": "launch",
+      "mainClass": "fourweeks.ClimbStairs",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "BestTimeToBuyAndSellStock",
+      "request": "launch",
+      "mainClass": "fourweeks.BestTimeToBuyAndSellStock",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "MergeTwoSortedLists",
+      "request": "launch",
+      "mainClass": "fourweeks.MergeTwoSortedLists",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "ValidParentheses",
+      "request": "launch",
+      "mainClass": "fourweeks.ValidParentheses",
+      "projectName": "Algorithm_837be494"
+    },
+    {
+      "type": "java",
+      "name": "Twosum",
+      "request": "launch",
+      "mainClass": "fourweeks.Twosum",
+      "projectName": "Algorithm_837be494"
     },
     {
       "type": "java",
