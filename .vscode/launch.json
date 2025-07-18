@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RansomNote",
+      "request": "launch",
+      "mainClass": "fourweeks.RansomNote",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "FirstUniqueCharacter",
+      "request": "launch",
+      "mainClass": "fourweeks.FirstUniqueCharacter",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "IntersectionOfTwoArrays",
       "request": "launch",
       "mainClass": "fourweeks.IntersectionOfTwoArrays",
