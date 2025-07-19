@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidAnagram",
+      "request": "launch",
+      "mainClass": "fourweeks.ValidAnagram",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "RansomNote",
       "request": "launch",
       "mainClass": "fourweeks.RansomNote",
