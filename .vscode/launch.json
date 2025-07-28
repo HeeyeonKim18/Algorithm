@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SingleNumber",
+      "request": "launch",
+      "mainClass": "fourweeks.SingleNumber",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "ContainDuplicate",
+      "request": "launch",
+      "mainClass": "fourweeks.ContainDuplicate",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "BinarySearch",
       "request": "launch",
       "mainClass": "fourweeks.BinarySearch",
