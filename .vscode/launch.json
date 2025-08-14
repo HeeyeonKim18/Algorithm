@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "IntersectionOfTwoLinkedList",
+      "request": "launch",
+      "mainClass": "fourweeks.IntersectionOfTwoLinkedList",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "PalindromeLinkedList",
+      "request": "launch",
+      "mainClass": "fourweeks.PalindromeLinkedList",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "SingleNumber",
       "request": "launch",
       "mainClass": "fourweeks.SingleNumber",
