@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ExcelSheetColumnNumber",
+      "request": "launch",
+      "mainClass": "fourweeks.ExcelSheetColumnNumber",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "IntersectionOfTwoLinkedList",
       "request": "launch",
       "mainClass": "fourweeks.IntersectionOfTwoLinkedList",
