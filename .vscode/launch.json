@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SymmetricTree",
+      "request": "launch",
+      "mainClass": "fourweeks.SymmetricTree",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "MaximumDepthOfBinaryTree",
+      "request": "launch",
+      "mainClass": "fourweeks.MaximumDepthOfBinaryTree",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "HappyNumber",
       "request": "launch",
       "mainClass": "fourweeks.HappyNumber",
