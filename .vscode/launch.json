@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PathSum",
+      "request": "launch",
+      "mainClass": "fourweeks.PathSum",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
+      "name": "InvertBinaryTree",
+      "request": "launch",
+      "mainClass": "fourweeks.InvertBinaryTree",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "HappyNumber",
       "request": "launch",
       "mainClass": "fourweeks.HappyNumber",
