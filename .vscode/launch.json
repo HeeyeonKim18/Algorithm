@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ConvertSortedArrayToBinarySearchTree",
+      "request": "launch",
+      "mainClass": "fourweeks.ConvertSortedArrayToBinarySearchTree",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "SymmetricTree",
       "request": "launch",
       "mainClass": "fourweeks.SymmetricTree",
