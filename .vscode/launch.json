@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BalancedBinaryTree",
+      "request": "launch",
+      "mainClass": "fourweeks.BalancedBinaryTree",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "ConvertSortedArrayToBinarySearchTree",
       "request": "launch",
       "mainClass": "fourweeks.ConvertSortedArrayToBinarySearchTree",
