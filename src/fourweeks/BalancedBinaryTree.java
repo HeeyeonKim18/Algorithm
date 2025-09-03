@@ -1,7 +1,5 @@
 package fourweeks;
 
-import java.util.Stack;
-
 import fourweeks.common.TreeNode;
 
 public class BalancedBinaryTree {
