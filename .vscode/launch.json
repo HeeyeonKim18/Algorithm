@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NAryTreePreOrderTraversal",
+      "request": "launch",
+      "mainClass": "fourweeks.NAryTreePreOrderTraversal",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "DiameterOfBinaryTree",
       "request": "launch",
       "mainClass": "fourweeks.DiameterOfBinaryTree",
