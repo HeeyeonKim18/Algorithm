@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumDepthOfBinaryTree",
+      "request": "launch",
+      "mainClass": "fourweeks.MinimumDepthOfBinaryTree",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "NAryTreePreOrderTraversal",
       "request": "launch",
       "mainClass": "fourweeks.NAryTreePreOrderTraversal",
