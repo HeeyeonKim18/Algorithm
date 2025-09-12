@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NumberOfIslands",
+      "request": "launch",
+      "mainClass": "fourweeks.NumberOfIslands",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "MinimumDepthOfBinaryTree",
       "request": "launch",
       "mainClass": "fourweeks.MinimumDepthOfBinaryTree",
