@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ContainerWithMostWater",
+      "request": "launch",
+      "mainClass": "fourweeks.ContainerWithMostWater",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "NumberOfIslands",
       "request": "launch",
       "mainClass": "fourweeks.NumberOfIslands",
