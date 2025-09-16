@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidSudoku",
+      "request": "launch",
+      "mainClass": "fourweeks.ValidSudoku",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "ContainerWithMostWater",
       "request": "launch",
       "mainClass": "fourweeks.ContainerWithMostWater",
