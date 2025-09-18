@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumWindowSubstring",
+      "request": "launch",
+      "mainClass": "fourweeks.MinimumWindowSubstring",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "LongestSubstringWithoutRepeatingCharacters",
       "request": "launch",
       "mainClass": "fourweeks.LongestSubstringWithoutRepeatingCharacters",
