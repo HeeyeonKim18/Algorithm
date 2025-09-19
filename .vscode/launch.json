@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestPalindromicSubstring",
+      "request": "launch",
+      "mainClass": "fourweeks.LongestPalindromicSubstring",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
+      "name": "ValidPalindrome",
+      "request": "launch",
+      "mainClass": "fourweeks.ValidPalindrome",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "MinimumWindowSubstring",
       "request": "launch",
       "mainClass": "fourweeks.MinimumWindowSubstring",
