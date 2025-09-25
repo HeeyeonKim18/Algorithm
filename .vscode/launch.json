@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "WordSearch",
+      "request": "launch",
+      "mainClass": "fourweeks.WordSearch",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "LongestPalindromicSubstring",
       "request": "launch",
       "mainClass": "fourweeks.LongestPalindromicSubstring",
