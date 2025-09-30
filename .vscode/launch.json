@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Permutations",
+      "request": "launch",
+      "mainClass": "fourweeks.Permutations",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "WordSearch",
       "request": "launch",
       "mainClass": "fourweeks.WordSearch",
