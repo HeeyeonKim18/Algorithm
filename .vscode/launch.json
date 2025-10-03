@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CombinationSum",
+      "request": "launch",
+      "mainClass": "fourweeks.CombinationSum",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "Subsets",
       "request": "launch",
       "mainClass": "fourweeks.Subsets",
