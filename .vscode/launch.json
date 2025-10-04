@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SearchInRotatedSortedArray",
+      "request": "launch",
+      "mainClass": "fourweeks.SearchInRotatedSortedArray",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "CombinationSum",
       "request": "launch",
       "mainClass": "fourweeks.CombinationSum",
