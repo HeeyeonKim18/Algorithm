@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GenerateParentheses",
+      "request": "launch",
+      "mainClass": "fourweeks.additional.GenerateParentheses",
+      "projectName": "Algorithm_c4b96484"
+    },
+    {
+      "type": "java",
       "name": "LetterCombinationsOfAPhoneNumber",
       "request": "launch",
       "mainClass": "fourweeks.additional.LetterCombinationsOfAPhoneNumber",
