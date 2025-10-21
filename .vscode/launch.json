@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AddTwoNumbers",
+      "request": "launch",
+      "mainClass": "fourweeks.additional.AddTwoNumbers",
+      "projectName": "Algorithm_6e8f9733"
+    },
+    {
+      "type": "java",
       "name": "GenerateParentheses",
       "request": "launch",
       "mainClass": "fourweeks.additional.GenerateParentheses",
